@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/estilos - css/estindex.css">
+    <title>Pagina</title>
+</head>
+
+<body>
+    <div class="container-bg">
+        <!--Menu de Navegacion-->
+        <div class="row">
+            <div class="col-12">
+                <div class="container-bg">
+                <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+                    <img src="/img-ico/gameslogo.ico" alt="" width="45" height="35" class="d-inline-block align-text-middle">
+                    <a class="navbar-brand mb-0 h1" href="#">GAMES</a>
+                    <button class="navbar-toggler ms-0 mb-1" type="button" data-bs-toggle="collapse" data-bs-target="#menuhamburguesa">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menuhamburguesa">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                            <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Juegos</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="#">Comunidades</a></li>
+                            <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" role="button" data-bs-toggle="dropdown" href="">Categoria</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Accion</a></li>
+                                <li><a class="dropdown-item" href="#">Terror</a></li>
+                                <li><a class="dropdown-item" href="#">Rol</a></li>
+                                <li><a class="dropdown-item" href="#">Estrategia</a></li>
+                            </ul>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav text-start">
+                        <li class="nav-item p-2"><button class="btn btn-sm btn-warning" href="">
+                        <img src="/img-ico/registrar.ico" alt="" width="30" height="30" class="d-inline-block align-text-center">Registrarse</button></li>
+                        <li class="nav-item p-2"><button class="btn btn-sm btn-outline-light" href="">
+                        <img src="/img-ico/iniciar.ico" alt="" width="30" height="30" class="d-inline-block align-text-center">Iniciar Sesion</button></li></ul>
+                    </div>
+                </nav>
+                </div>
+            </div>
+        </div>
+        <!--Carrusel-->
+        <div class="container-sm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="carrusel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carrusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                        <div class="carousel-item active">
+                            <img src="#" height="400" class="d-block w-100" alt="Game">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="#" height="400" class="d-block w-100" alt="Game">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="#"  height="400" class="d-block w-100" alt="Game">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10" style="background-color: darkcyan;">
+                Contenido
+            </div>
+            <div class="col-md-2" style="background-color: orange;">
+                Links
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" style="background-color: green;">
+                Extra
+            </div>
+            <div class="col-md-6" style="background-color:yellow ;">
+                Footer
+            </div>
+        </div>
+    </div>
+
+    <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
